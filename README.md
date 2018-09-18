@@ -28,13 +28,15 @@ You have to implement an abstracted and simple library system.
 
    **BUT:** You are not allowed to do [pair programming](https://en.wikipedia.org/wiki/Pair_programming).
    **AND** If you have already done this kata before to have a look at your previous implementation.
+   
+4. Develop your code based on Golang 1.11+.
 
-4. Keep the following priorities in mind while you implementing - in the mentioned order:
+5. Keep the following priorities in mind while you implementing - in the mentioned order:
    1. Code quality
    2. Structure
    3. Functionality
 
-5. Given resources:
+6. Given resources:
 
    > **Hint:** There is a reason why there are so many books and authors in german with [umlauts](https://en.wikipedia.org/wiki/Germanic_umlaut).
 
