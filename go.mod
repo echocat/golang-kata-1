@@ -1,6 +1,6 @@
 module github.com/echocat/golang-kata-1/v1
 
-require github.com/onsi/gomega v1.29.0
+require github.com/onsi/gomega v1.30.0
 
 require (
 	github.com/google/go-cmp v0.6.0 // indirect
