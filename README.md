@@ -18,20 +18,20 @@ You have to implement an abstracted and simple library system.
 
 1. You have exact 2.5 hours of time - no minute longer.
 
-   If you reach this time limit stop your work immediately.
+   If you reach this time limit, stop your work immediately.
    It is one part of the kata to respect this time limit.
    
 2. There are no restrictions on how to use the provided time.
    If you want to code the entire time, take a break or a cigaret - it’s up to you.
 
-3. This is a real world situation. You are allowed to consult the Internet, use every library you want, call a friend ...
+3. This is a real-world situation. You are allowed to consult the Internet, use every library you want, call a friend ...
 
    **BUT:** You are not allowed to do [pair programming](https://en.wikipedia.org/wiki/Pair_programming).
    **AND** If you have already done this kata before to have a look at your previous implementation.
    
-4. Develop your code based on Golang 1.11+.
+4. Develop your code based on Golang 1.23+.
 
-5. Keep the following priorities in mind while you implementing - in the mentioned order:
+5. Keep the following priorities in mind while you are implementing - in the mentioned order:
    1. Code quality
    2. Structure
    3. Functionality
@@ -87,7 +87,7 @@ You have to implement an abstracted and simple library system.
          # Example: git clone https://github.com/blaubaer/golang-kata-1.git
          ```
 
-   2. Clone this repository with local branch:
+   2. Clone this repository with a local branch:
       ```bash
       git clone https://github.com/echocat/golang-kata-1.git
       git checkout -b run-<yourname>-<iteration number> 
@@ -120,7 +120,7 @@ You have to implement an abstracted and simple library system.
 ##### How to run your tests?
 
 1. By IDE:<br/>
-   Just click with right mouse on the root of your project tree and click on
+   Just click with the right mouse on the root of your project tree and click on
    then on _Run all tests_ or _Debug all tests_.
 2. By command line:
    ```bash
