@@ -2,18 +2,37 @@ name: Continuous Integration
 
 on:
   push:
-    branches:
-      - '**'
+    branches: [ "main" ]
+  pull_request:
   schedule:
     - cron: '0 5 * * 1'
 
+permissions:
+  contents: read
+
 jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          check-latest: true
+
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v8
+
   test:
     name: Test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Set up Go
         uses: actions/setup-go@v5

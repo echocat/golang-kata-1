@@ -1,8 +1,9 @@
 package main
 
 import (
-	. "github.com/onsi/gomega"
 	"testing"
+
+	. "github.com/onsi/gomega"
 )
 
 func TestWelcomeMessage(t *testing.T) {

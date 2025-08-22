@@ -22,7 +22,7 @@ You have to implement an abstracted and simple library system.
    It is one part of the kata to respect this time limit.
    
 2. There are no restrictions on how to use the provided time.
-   If you want to code the entire time, take a break or a cigaret - it’s up to you.
+   If you want to code the entire time, take a break or a cigarette - it’s up to you.
 
 3. This is a real-world situation. You are allowed to consult the Internet, use every library you want, call a friend ...
 
